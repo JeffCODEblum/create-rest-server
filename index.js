@@ -7,7 +7,10 @@ shell.mkdir('-p', process.cwd(), process.cwd() + '/' + appName);
 shell.cd(process.cwd() + '/' + appName);
 const boilerplateIndex = `
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
+
+app.use(bodyParser.json());
 
 app.get('/get-data', (req, res) => {
   res.send({foo: 'bar'});
