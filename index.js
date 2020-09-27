@@ -28,7 +28,6 @@ app.delete('/delete-data/:id', (req, res) => {
 
 app.put('/put-data/:id', (req, res) => {
     const id = req.params.id;
-    res.setStatus(200);
     res.send(id);
 });
 
