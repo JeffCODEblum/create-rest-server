@@ -2,7 +2,7 @@
   "name": "create-rest-server",
   "bin": "index.js",
   "version": "1.0.2",
-  "description": "",
+  "description": "creates a thin boilerplate express project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/JeffCODEblum/create-rest-server.git"
   },
-  "author": "",
+  "author": "Jeffcodeblum",
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.8.4"
